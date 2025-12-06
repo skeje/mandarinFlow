@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Centre à Mulhouse spécialisé en mandarin professionnel et culture business chinoise. Formations pour étudiants, cadres et entreprises. Diagnostic gratuit.">
+    <meta name="keywords" content="formation mandarin Mulhouse, mandarin business France, préparation HSK Mulhouse, formation interculturelle Chine">
+    <title>Mandarin Flow — Formation mandarin business à Mulhouse | HSK & Entreprises</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-white text-gray-900">
+
+    <!-- ===== Header ===== -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-xl border-b-2 border-yellow-200 shadow-lg">
+        <div class="max-w-7xl mx-auto px-8 sm:px-10 lg:px-16 py-5 flex justify-between items-center">
+            <a href="#home" class="flex items-center gap-3 group">
+                <img src="https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/69b2bd9d-2054-4ef8-8e17-30aa44cfd9d6" alt="Logo" class="h-10 sm:h-12 group-hover:scale-110 transition-transform duration-300">
+                <span class="text-2xl sm:text-3xl font-bold text-gradient">Mandarin Flow</span>
+            </a>
+            
+            <button class="menu-toggle md:hidden text-2xl text-gray-900 hover:text-yellow-500 transition" onclick="toggleMenu()">☰</button>
+            
+            <nav id="mainNav" class="hidden md:flex gap-8 items-center">
+                <a href="#home" class="text-sm font-medium text-gray-700 hover:text-yellow-500 transition relative group">
+                    Accueil
+                    <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-400 group-hover:w-full transition-all duration-300"></span>
+                </a>
+                <a href="#arguments" class="text-sm font-medium text-gray-700 hover:text-yellow-500 transition relative group">
+                    Pourquoi Nous
+                    <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-400 group-hover:w-full transition-all duration-300"></span>
+                </a>
+                <a href="#formations" class="text-sm font-medium text-gray-700 hover:text-yellow-500 transition relative group">
+                    Formations
+                    <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-400 group-hover:w-full transition-all duration-300"></span>
+                </a>
+                <a href="#entreprises" class="text-sm font-medium text-gray-700 hover:text-yellow-500 transition relative group">
+                    Entreprises
+                    <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-400 group-hover:w-full transition-all duration-300"></span>
+                </a>
+                <a href="#temoignages" class="text-sm font-medium text-gray-700 hover:text-yellow-500 transition relative group">
+                    Témoignages
+                    <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-400 group-hover:w-full transition-all duration-300"></span>
+                </a>
+                <a href="#contact" class="text-sm font-medium text-gray-700 hover:text-yellow-500 transition relative group">
+                    Contact
+                    <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-400 group-hover:w-full transition-all duration-300"></span>
+                </a>
+            </nav>
+            
+            <button onclick="openModal()" class="hidden sm:block bg-gradient-to-r from-yellow-400 to-yellow-500 text-blue-900 px-6 py-2 rounded-full font-bold btn-glow text-sm shadow-lg hover:shadow-xl">Diagnostic</button>
+        </div>
+        
+        <nav id="mobileNav" class="hidden md:hidden absolute top-full left-0 right-0 bg-white border-b border-gray-200 flex flex-col">
+            <a href="#home" onclick="toggleMenu()" class="px-4 py-3 border-b text-gray-700 hover:bg-yellow-50 hover:text-yellow-600 transition">Accueil</a>
+            <a href="#arguments" onclick="toggleMenu()" class="px-4 py-3 border-b text-gray-700 hover:bg-yellow-50 hover:text-yellow-600 transition">Pourquoi Nous</a>
+            <a href="#formations" onclick="toggleMenu()" class="px-4 py-3 border-b text-gray-700 hover:bg-yellow-50 hover:text-yellow-600 transition">Formations</a>
+            <a href="#entreprises" onclick="toggleMenu()" class="px-4 py-3 border-b text-gray-700 hover:bg-yellow-50 hover:text-yellow-600 transition">Entreprises</a>
+            <a href="#temoignages" onclick="toggleMenu()" class="px-4 py-3 border-b text-gray-700 hover:bg-yellow-50 hover:text-yellow-600 transition">Témoignages</a>
+            <a href="#contact" onclick="toggleMenu()" class="px-4 py-3 border-b text-gray-700 hover:bg-yellow-50 hover:text-yellow-600 transition">Contact</a>
+            <button onclick="openModal(); toggleMenu()" class="px-4 py-3 bg-gradient-to-r from-yellow-400 to-yellow-500 text-blue-900 font-bold m-2 rounded-lg">Diagnostic gratuit</button>
+        </nav>
+    </header>
+
+    <!-- ===== Hero Section with Background Image ===== -->
+    <section id="home" class="relative gradient-blue-dark text-white py-32 sm:py-48 overflow-hidden" style="background: linear-gradient(135deg, rgba(30, 58, 138, 0.85) 0%, rgba(15, 45, 92, 0.85) 100%), url('https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=1600&h=900&fit=crop&q=80') center/cover no-repeat; background-attachment: fixed; background-blend-mode: overlay;">
+        <div class="absolute top-0 right-0 w-96 h-96 bg-yellow-500 rounded-full opacity-10 blur-3xl animate-float"></div>
+        <div class="absolute bottom-0 left-0 w-72 h-72 bg-yellow-400 rounded-full opacity-10 blur-3xl animate-float" style="animation-delay: 0.5s;"></div>
+        
+        <div class="section-wrapper relative z-10 text-center">
+            <h1 class="text-5xl sm:text-6xl lg:text-7xl font-bold mb-8 animate-fade-up leading-tight" style="text-shadow: 3px 3px 10px rgba(0,0,0,0.5);">
+                Mandarin Flow
+            </h1>
+            <p class="text-xl sm:text-2xl mb-6 text-yellow-200 max-w-3xl mx-auto animate-fade-up" style="animation-delay: 0.2s; text-shadow: 2px 2px 6px rgba(0,0,0,0.5);">
+                Le mandarin pour faire des affaires avec la Chine
+            </p>
+            <p class="text-lg sm:text-xl mb-12 text-gray-100 max-w-2xl mx-auto animate-fade-up" style="animation-delay: 0.4s; text-shadow: 2px 2px 6px rgba(0,0,0,0.5);">
+                Formations à Mulhouse, hybrides et certifiantes (HSK). Préparez vos équipes à négocier, acheter et signer.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-6 justify-center animate-fade-up" style="animation-delay: 0.6s">
+                <button onclick="openModal()" class="bg-gradient-to-r from-yellow-400 to-yellow-500 text-blue-900 px-10 py-4 rounded-full font-bold btn-glow text-lg hover:scale-105 transform transition shadow-2xl">
+                    Diagnostic gratuit
+                </button>
+                <button onclick="document.getElementById('formations').scrollIntoView()" class="border-2 border-yellow-300 text-yellow-300 px-10 py-4 rounded-full font-bold btn-glow text-lg hover:bg-yellow-400 hover:text-blue-900 hover:scale-105 transform transition">
+                    Voir les programmes
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Gallery Section ===== -->
+    <section class="py-32 sm:py-40 bg-white relative overflow-hidden">
+        <div class="absolute inset-0 opacity-5" style="background-image: radial-gradient(circle at 1px 1px, #1E3A8A 1px, transparent 1px); background-size: 40px 40px;"></div>
+        <div class="section-wrapper relative z-10">
+            <h2 class="text-4xl sm:text-5xl font-bold text-center mb-4 text-gray-900">🏛️ Découvrez Mandarin Flow</h2>
+            <p class="text-center text-gray-600 mb-16 text-lg">Une expérience unique de formation en mandarin</p>
+            <div class="grid md:grid-cols-4 gap-6 mb-8">
+                <div class="card-hover rounded-xl overflow-hidden shadow-lg cursor-pointer group" onclick="openImageModal(this.querySelector('img').src)">
+                    <div class="relative overflow-hidden bg-gray-200 h-64">
+                        <img src="assets/images/team.jpg" alt="Team Mandarin Flow" class="w-full h-64 object-cover group-hover:scale-125 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                            <span class="text-white font-bold">Voir plus</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-hover rounded-xl overflow-hidden shadow-lg cursor-pointer group" onclick="openImageModal(this.querySelector('img').src)">
+                    <div class="relative overflow-hidden bg-gray-200 h-64">
+                        <img src="assets/images/Explore the Great Wall of China_ A Historic Adventure Awaits!.jpeg" alt="Great Wall China" class="w-full h-64 object-cover group-hover:scale-125 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                            <span class="text-white font-bold">Voir plus</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-hover rounded-xl overflow-hidden shadow-lg cursor-pointer group" onclick="openImageModal(this.querySelector('img').src)">
+                    <div class="relative overflow-hidden bg-gray-200 h-64">
+                        <img src="assets/images/architecture.jpg" alt="Professional Coaching" class="w-full h-64 object-cover group-hover:scale-125 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                            <span class="text-white font-bold">Voir plus</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-hover rounded-xl overflow-hidden shadow-lg cursor-pointer group" onclick="openImageModal(this.querySelector('img').src)">
+                    <div class="relative overflow-hidden bg-gray-200 h-64">
+                        <img src="assets/images/house.jpg" alt="Team Meeting" class="w-full h-64 object-cover group-hover:scale-125 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                            <span class="text-white font-bold">Voir plus</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center text-gray-700 max-w-3xl mx-auto text-lg font-medium">Nos locaux modernes, nos coaches natifs expérimentés, notre plateforme e-learning innovante et les succès de nos apprenants. 850+ étudiants & professionnels nous font confiance.</p>
+        </div>
+    </section>
+
+    <!-- ===== Arguments Section ===== -->
+    <section id="arguments" class="py-32 sm:py-40 bg-gradient-to-br from-gray-50 via-white to-blue-50 relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-80 h-80 bg-yellow-200 rounded-full opacity-5 blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 w-80 h-80 bg-blue-200 rounded-full opacity-5 blur-3xl"></div>
+        <div class="section-wrapper relative z-10">
+            <h2 class="text-4xl sm:text-5xl font-bold text-center mb-8 text-gray-900">Pourquoi Mandarin Flow ?</h2>
+            <p class="text-center text-gray-600 mb-16 text-lg max-w-2xl mx-auto">Découvrez les avantages uniques de notre approche pédagogique</p>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="card-hover bg-white p-10 rounded-2xl border-2 border-yellow-200 shadow-xl transform hover:rotate-0" style="transform: rotate(-2deg);">
+                    <div class="text-6xl mb-6 animate-float">🗣️</div>
+                    <h3 class="text-2xl font-bold mb-4 text-gray-900">Compétences Linguistiques Pro</h3>
+                    <p class="text-gray-700 leading-relaxed text-lg">Vocabulaire spécialisé en supply chain, commerce et négociation. Maîtrisez le mandarin business en 3 mois.</p>
+                </div>
+                
+                <div class="card-hover bg-white p-10 rounded-2xl border-2 border-yellow-200 shadow-xl">
+                    <div class="text-6xl mb-6 animate-float" style="animation-delay: 0.3s;">🌏</div>
+                    <h3 class="text-2xl font-bold mb-4 text-gray-900">Culture & Interculturel</h3>
+                    <p class="text-gray-700 leading-relaxed text-lg">Comprenez les codes sino-français. Coachings spécifiques sur l'étiquette affaires, les contrats et risques géopolitiques.</p>
+                </div>
+                
+                <div class="card-hover bg-white p-10 rounded-2xl border-2 border-yellow-200 shadow-xl transform hover:rotate-0" style="transform: rotate(2deg);">
+                    <div class="text-6xl mb-6 animate-float" style="animation-delay: 0.6s;">📱</div>
+                    <h3 class="text-2xl font-bold mb-4 text-gray-900">E-learning + Suivi Personnalisé</h3>
+                    <p class="text-gray-700 leading-relaxed text-lg">Plateforme interactive avec tableau de bord. 100% en ligne, hybride ou en centre à Mulhouse.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Formations Section ===== -->
+    <section id="formations" class="py-24 sm:py-32 bg-white">
+        <div class="section-wrapper">
+            <h2 class="text-4xl sm:text-5xl font-bold text-center mb-8 text-gray-900">Nos Offres de Formation</h2>
+            <p class="text-center text-gray-600 mb-16 max-w-2xl mx-auto text-lg">Programmes adaptés pour les étudiants, professionnels et cadres avec certifications HSK reconnues internationalement.</p>
+            
+            <!-- Interactive Tabs -->
+            <div class="flex justify-center gap-4 mb-16 flex-wrap">
+                <button onclick="switchTab('students')" class="tab-btn active px-8 py-3 rounded-full font-bold transition-all bg-gradient-to-r from-yellow-400 to-yellow-500 text-blue-900 shadow-lg" data-tab="students">👨‍🎓 Étudiants</button>
+                <button onclick="switchTab('pro')" class="tab-btn px-8 py-3 rounded-full font-bold transition-all border-2 border-yellow-400 text-gray-900 hover:border-yellow-500" data-tab="pro">💼 Professionnels</button>
+                <button onclick="switchTab('exec')" class="tab-btn px-8 py-3 rounded-full font-bold transition-all border-2 border-yellow-400 text-gray-900 hover:border-yellow-500" data-tab="exec">🎯 Cadres/Executive</button>
+            </div>
+            
+            <!-- Tab Content: Étudiants -->
+            <div id="students-content" class="tab-content">
+                <div class="grid md:grid-cols-2 gap-12">
+                    <div class="card-hover bg-white p-10 rounded-3xl border-3 border-yellow-400 shadow-lg">
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="text-4xl">🎓</div>
+                            <div>
+                                <h3 class="text-2xl font-bold text-gray-900">Pack Découverte</h3>
+                                <p class="text-sm text-gray-600">Débuter en mandarin</p>
+                            </div>
+                        </div>
+                        <div class="text-4xl font-bold text-blue-600 mb-4">299€</div>
+                        <p class="text-gray-700 mb-6 font-semibold">Durée: 2 mois | Niveau: A1-A2</p>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-center gap-3 text-gray-800"><span class="text-yellow-500">✓</span> 20 h de cours collectifs</li>
+                            <li class="flex items-center gap-3 text-gray-800"><span class="text-yellow-500">✓</span> Préparation HSK 1-2</li>
+                            <li class="flex items-center gap-3 text-gray-800"><span class="text-yellow-500">✓</span> E-learning illimité</li>
+                            <li class="flex items-center gap-3 text-gray-800"><span class="text-yellow-500">✓</span> Certificat d'accomplissement</li>
+                            <li class="flex items-center gap-3 text-gray-800"><span class="text-yellow-500">✓</span> Accès communauté alumni</li>
+                        </ul>
+                        <button onclick="openModal()" class="w-full border-2 border-blue-900 text-blue-900 py-3 rounded-full font-bold btn-glow hover:bg-blue-900 hover:text-white transition-all">
+                            Demander un devis
+                        </button>
+                    </div>
+                    
+                    <div class="card-hover bg-yellow-50 p-10 rounded-3xl border-3 border-yellow-400 shadow-lg">
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="text-4xl">🚀</div>
+                            <div>
+                                <h3 class="text-2xl font-bold text-gray-900">Pack Accélération</h3>
+                                <p class="text-sm text-gray-700">Mandarin business pro</p>
+                            </div>
+                        </div>
+                        <div class="text-4xl font-bold text-yellow-600 mb-4">649€</div>
+                        <p class="text-gray-800 mb-6 font-semibold">Durée: 3 mois | Niveau: A2-B1</p>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-center gap-3 text-gray-800"><span class="text-yellow-600">✓</span> 30 h cours + 5 h coaching 1-to-1</li>
+                            <li class="flex items-center gap-3 text-gray-800"><span class="text-yellow-600">✓</span> Vocabulaire business spécialisé</li>
+                            <li class="flex items-center gap-3 text-gray-800"><span class="text-yellow-600">✓</span> Simulation négociations</li>
+                            <li class="flex items-center gap-3 text-gray-800"><span class="text-yellow-600">✓</span> Préparation HSK 2-3 incluse</li>
+                            <li class="flex items-center gap-3 text-gray-800"><span class="text-yellow-600">✓</span> 6 mois accès plateforme</li>
+                        </ul>
+                        <button onclick="openModal()" class="w-full bg-yellow-400 text-blue-900 py-3 rounded-full font-bold btn-glow hover:bg-yellow-500">
+                            S'inscrire maintenant
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Tab Content: Professionnels -->
+            <div id="pro-content" class="tab-content hidden">
+                <div class="grid md:grid-cols-2 gap-12">
+                    <div class="card-hover bg-white p-10 rounded-3xl border-3 border-yellow-400 shadow-lg">
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="text-4xl">💼</div>
+                            <div>
+                                <h3 class="text-2xl font-bold text-gray-900">Pack Flexibility</h3>
+                                <p class="text-sm text-gray-600">Pour les actifs</p>
+                            </div>
+                        </div>
+                        <div class="text-4xl font-bold text-purple-900 mb-4">599€</div>
+                        <p class="text-gray-700 mb-6 font-semibold">Durée: 3 mois | Flexibilité maximale</p>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-center gap-3 text-gray-800"><span class="text-yellow-500">✓</span> 25 h coaching flexible (soir/weekend)</li>
+                            <li class="flex items-center gap-3 text-gray-800"><span class="text-yellow-500">✓</span> 100% visio ou hybride</li>
+                            <li class="flex items-center gap-3 text-gray-800"><span class="text-yellow-500">✓</span> Vocabulaire métier adapté</li>
+                            <li class="flex items-center gap-3 text-gray-800"><span class="text-yellow-500">✓</span> Préparation HSK 2-3</li>
+                            <li class="flex items-center gap-3 text-gray-800"><span class="text-yellow-500">✓</span> 3 mois accès plateforme</li>
+                        </ul>
+                        <button onclick="openModal()" class="w-full border-2 border-purple-900 text-purple-900 py-3 rounded-full font-bold btn-glow hover:bg-purple-900 hover:text-white">
+                            Découvrir l'offre
+                        </button>
+                    </div>
+                    
+                    <div class="card-hover bg-white p-10 rounded-3xl border-3 border-yellow-400 shadow-lg">
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="text-4xl">🔥</div>
+                            <div>
+                                <h3 class="text-2xl font-bold text-gray-900">Pack Intensif</h3>
+                                <p class="text-sm text-gray-600">Accélération rapide</p>
+                            </div>
+                        </div>
+                        <div class="text-4xl font-bold text-red-700 mb-4">999€</div>
+                        <p class="text-gray-700 mb-6 font-semibold">Durée: 2 mois | Rythme: Intensif</p>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-center gap-3 text-gray-800"><span class="text-yellow-500">✓</span> 40 h coaching intensif</li>
+                            <li class="flex items-center gap-3 text-gray-800"><span class="text-yellow-500">✓</span> 2-3 sessions/semaine</li>
+                            <li class="flex items-center gap-3 text-gray-800"><span class="text-yellow-500">✓</span> Coaching 1-to-1 prioritaire</li>
+                            <li class="flex items-center gap-3 text-gray-800"><span class="text-yellow-500">✓</span> Certification HSK 3 garantie</li>
+                            <li class="flex items-center gap-3 text-gray-800"><span class="text-yellow-500">✓</span> 6 mois support illimité</li>
+                        </ul>
+                        <button onclick="openModal()" class="w-full border-2 border-red-700 text-red-700 py-3 rounded-full font-bold btn-glow hover:bg-red-700 hover:text-white">
+                            Commencer l'intensif
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Tab Content: Cadres/Executive -->
+            <div id="exec-content" class="tab-content hidden">
+                <div class="grid md:grid-cols-2 gap-12">
+                    <div class="card-hover gradient-blue-dark text-white rounded-3xl shadow-2xl overflow-hidden">
+                        <div class="bg-yellow-400 h-12 rounded-b-3xl"></div>
+                        <div class="p-10">
+                            <div class="flex items-center gap-4 mb-6">
+                                <div class="text-4xl">🎯</div>
+                                <div>
+                                    <h3 class="text-2xl font-bold text-white">Pack Executive</h3>
+                                    <p class="text-sm text-yellow-200">Pour les décideurs</p>
+                                </div>
+                            </div>
+                            <div class="text-4xl font-bold text-yellow-300 mb-4">1 200€</div>
+                            <p class="text-yellow-100 mb-6 font-semibold">Durée: 4 mois | Niveau: B1-B2</p>
+                            <ul class="space-y-3 mb-8">
+                                <li class="flex items-center gap-3 text-yellow-100"><span class="text-yellow-300">✓</span> 40 h coaching individuel 1-to-1</li>
+                                <li class="flex items-center gap-3 text-yellow-100"><span class="text-yellow-300">✓</span> Modules négociation & contrats</li>
+                                <li class="flex items-center gap-3 text-yellow-100"><span class="text-yellow-300">✓</span> Coaching interculturel sino-français</li>
+                                <li class="flex items-center gap-3 text-yellow-100"><span class="text-yellow-300">✓</span> Préparation HSK 3-4</li>
+                                <li class="flex items-center gap-3 text-yellow-100"><span class="text-yellow-300">✓</span> 12 mois accès plateforme</li>
+                                <li class="flex items-center gap-3 text-yellow-100"><span class="text-yellow-300">✓</span> Support prioritaire illimité</li>
+                            </ul>
+                            <button onclick="openModal()" class="w-full bg-yellow-400 text-blue-900 py-3 rounded-lg font-bold btn-glow hover:bg-yellow-300">
+                                Démarrer maintenant
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="card-hover bg-gray-900 text-white rounded-3xl border-3 border-yellow-400 shadow-2xl">
+                        <div class="p-10">
+                            <div class="flex items-center gap-4 mb-6">
+                                <div class="text-4xl">🏆</div>
+                                <div>
+                                    <h3 class="text-2xl font-bold text-white">Pack VIP</h3>
+                                    <p class="text-sm text-gray-300">Sur mesure complet</p>
+                                </div>
+                            </div>
+                            <div class="text-4xl font-bold text-yellow-400 mb-4">À partir de 2 500€</div>
+                            <p class="text-gray-300 mb-6 font-semibold">Durée: Personnalisée | Audit inclus</p>
+                            <ul class="space-y-3 mb-8">
+                                <li class="flex items-center gap-3 text-gray-300"><span class="text-yellow-400">✓</span> Audit gratuit + diagnostic approfondi</li>
+                                <li class="flex items-center gap-3 text-gray-300"><span class="text-yellow-400">✓</span> Programme 100% personnalisé</li>
+                                <li class="flex items-center gap-3 text-gray-300"><span class="text-yellow-400">✓</span> Coaching directeur + équipe dédiée</li>
+                                <li class="flex items-center gap-3 text-gray-300"><span class="text-yellow-400">✓</span> Missions business réelles en mandarin</li>
+                                <li class="flex items-center gap-3 text-gray-300"><span class="text-yellow-400">✓</span> Placement en immersion Chine optionnel</li>
+                                <li class="flex items-center gap-3 text-gray-300"><span class="text-yellow-400">✓</span> Support illimité + coaching carrière</li>
+                            </ul>
+                            <button onclick="openModal()" class="w-full border-2 border-yellow-400 text-yellow-400 py-3 rounded-lg font-bold btn-glow hover:bg-yellow-400 hover:text-gray-900">
+                                Demander consultation
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Entreprises Section ===== -->
+    <section id="entreprises" class="py-24 sm:py-32 bg-gradient-to-b from-yellow-50 to-orange-50 border-t-4 border-yellow-400">
+        <div class="section-wrapper">
+            <h2 class="text-4xl sm:text-5xl font-bold text-center mb-8 text-gray-900">Solutions pour Entreprises</h2>
+            <p class="text-center text-gray-600 mb-12 max-w-3xl mx-auto text-lg">Packs intra-entreprise personnalisés pour maîtriser le mandarin business et la culture d'affaires chinoise. Audit gratuit & financement OPCO.</p>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12 mb-12">
+                <div class="card-hover bg-white p-6 rounded-2xl border-2 border-orange-400 shadow-lg text-center">
+                    <div class="text-5xl mb-4">📊</div>
+                    <h4 class="text-xl font-bold text-gray-900 mb-3">Audit & Diagnostic</h4>
+                    <p class="text-gray-600 text-sm">Analyse du niveau de vos équipes, identification des besoins spécifiques et ROI formation personnalisé.</p>
+                </div>
+                
+                <div class="card-hover bg-white p-6 rounded-2xl border-2 border-orange-400 shadow-lg text-center">
+                    <div class="text-5xl mb-4">🎯</div>
+                    <h4 class="text-xl font-bold text-gray-900 mb-3">Programmes Sur Mesure</h4>
+                    <p class="text-gray-600 text-sm">Vocabulaire métier, étiquette affaires, contrats, gestion interculturelle adaptés à votre secteur.</p>
+                </div>
+                
+                <div class="card-hover bg-white p-6 rounded-2xl border-2 border-orange-400 shadow-lg text-center">
+                    <div class="text-5xl mb-4">🏢</div>
+                    <h4 class="text-xl font-bold text-gray-900 mb-3">Flexibilité Maximale</h4>
+                    <p class="text-gray-600 text-sm">En centre Mulhouse, 100% visio ou hybride. Groupes 5-15 personnes. Horaires adaptés à vos calendriers.</p>
+                </div>
+                
+                <div class="card-hover bg-white p-6 rounded-2xl border-2 border-orange-400 shadow-lg text-center">
+                    <div class="text-5xl mb-4">💰</div>
+                    <h4 class="text-xl font-bold text-gray-900 mb-3">Financement & CPF</h4>
+                    <p class="text-gray-600 text-sm">Éligible CPF + OPCO. Prise en charge jusqu'à 100%. Devis adaptés à votre budget.</p>
+                </div>
+                
+                <div class="card-hover bg-white p-6 rounded-2xl border-2 border-orange-400 shadow-lg text-center">
+                    <div class="text-5xl mb-4">📈</div>
+                    <h4 class="text-xl font-bold text-gray-900 mb-3">Suivi & ROI</h4>
+                    <p class="text-gray-600 text-sm">Tableaux de bord temps réel, mesure de l'impact business, accompagnement post-formation inclus.</p>
+                </div>
+                
+                <div class="card-hover bg-white p-6 rounded-2xl border-2 border-orange-400 shadow-lg text-center">
+                    <div class="text-5xl mb-4">👥</div>
+                    <h4 class="text-xl font-bold text-gray-900 mb-3">Coaches Experts</h4>
+                    <p class="text-gray-600 text-sm">100% natifs/bilingues avec expérience business France-Chine. Certifiés pédagogiquement.</p>
+                </div>
+            </div>
+            
+            <div class="gradient-blue-dark text-white p-8 sm:p-12 rounded-2xl mb-12">
+                <h3 class="text-3xl font-bold text-yellow-400 mb-6">📌 Cas d'Usage : Entreprises Alsaciennes</h3>
+                <p class="text-lg mb-6">Nos clients : PME textile, supply chain, achats export, commerce électronique, industrie. Après 3 mois de formation, vos équipes négocient directement avec les fournisseurs chinois.</p>
+                <div class="grid md:grid-cols-2 gap-6 mb-8">
+                    <div class="space-y-4">
+                        <div class="flex items-start gap-3">
+                            <span class="text-2xl">✓</span>
+                            <p>Réduisez les intermédiaires et les coûts de traduction</p>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <span class="text-2xl">✓</span>
+                            <p>Négociez de meilleures conditions commerciales</p>
+                        </div>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="flex items-start gap-3">
+                            <span class="text-2xl">✓</span>
+                            <p>Accélérez les cycles de vente</p>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <span class="text-2xl">✓</span>
+                            <p>Renforcez vos relations B2B avec la Chine</p>
+                        </div>
+                    </div>
+                </div>
+                <button onclick="openModal()" class="bg-yellow-400 text-blue-900 px-10 py-4 rounded-lg font-bold btn-glow hover:bg-yellow-300 text-lg">
+                    Demander un audit gratuit
+                </button>
+            </div>
+            
+            <!-- Package Options for Companies -->
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="card-hover bg-white p-8 rounded-2xl border-2 border-gray-400 shadow-lg">
+                    <h4 class="text-2xl font-bold text-gray-900 mb-4">Pack Starter</h4>
+                    <div class="text-4xl font-bold text-orange-500 mb-6">À partir de<br>3 000€</div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center gap-2 text-gray-700"><span class="text-orange-500">✓</span> Audit gratuit</li>
+                        <li class="flex items-center gap-2 text-gray-700"><span class="text-orange-500">✓</span> 20h formation en groupe</li>
+                        <li class="flex items-center gap-2 text-gray-700"><span class="text-orange-500">✓</span> 5-10 personnes max</li>
+                        <li class="flex items-center gap-2 text-gray-700"><span class="text-orange-500">✓</span> 2 mois d'accès plateforme</li>
+                    </ul>
+                    <button onclick="openModal()" class="w-full border-2 border-orange-500 text-orange-500 py-3 rounded-lg font-bold btn-glow hover:bg-orange-500 hover:text-white">
+                        Détails du pack
+                    </button>
+                </div>
+                
+                <div class="card-hover gradient-blue-dark text-white rounded-3xl shadow-2xl transform scale-105 overflow-hidden">
+                    <div class="bg-yellow-400 h-12 rounded-b-3xl"></div>
+                    <div class="p-8">
+                        <h4 class="text-2xl font-bold mb-4 text-white">Pack Pro</h4>
+                        <div class="text-4xl font-bold text-yellow-300 mb-6">À partir de<br>7 500€</div>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-center gap-2 text-yellow-100"><span class="text-yellow-300">✓</span> Audit approfondi</li>
+                            <li class="flex items-center gap-2 text-yellow-100"><span class="text-yellow-300">✓</span> 50h formation + coaching</li>
+                            <li class="flex items-center gap-2 text-yellow-100"><span class="text-yellow-300">✓</span> 10-20 personnes max</li>
+                            <li class="flex items-center gap-2 text-yellow-100"><span class="text-yellow-300">✓</span> 6 mois plateforme + support</li>
+                            <li class="flex items-center gap-2 text-yellow-100"><span class="text-yellow-300">✓</span> Rapport ROI détaillé</li>
+                        </ul>
+                        <button onclick="openModal()" class="w-full bg-yellow-400 text-blue-900 py-3 rounded-lg font-bold btn-glow hover:bg-yellow-300">
+                            Demander devis
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="card-hover bg-white p-8 rounded-2xl border-2 border-gray-400 shadow-lg">
+                    <h4 class="text-2xl font-bold text-gray-900 mb-4">Pack VIP</h4>
+                    <div class="text-4xl font-bold text-blue-900 mb-6">À partir de<br>15 000€</div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center gap-2 text-gray-700"><span class="text-blue-900">✓</span> Audit + consulting business</li>
+                        <li class="flex items-center gap-2 text-gray-700"><span class="text-blue-900">✓</span> 100+ h formation à la carte</li>
+                        <li class="flex items-center gap-2 text-gray-700"><span class="text-blue-900">✓</span> Coaching directeur personnel</li>
+                        <li class="flex items-center gap-2 text-gray-700"><span class="text-blue-900">✓</span> Accès illimité 12 mois</li>
+                        <li class="flex items-center gap-2 text-gray-700"><span class="text-blue-900">✓</span> Placement immersion Chine optionnel</li>
+                    </ul>
+                    <button onclick="openModal()" class="w-full border-2 border-blue-900 text-blue-900 py-3 rounded-lg font-bold btn-glow hover:bg-blue-900 hover:text-white">
+                        Consultation
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Testimonials Section ===== -->
+    <section id="temoignages" class="py-32 sm:py-40 bg-gradient-to-br from-blue-50 via-white to-yellow-50 relative overflow-hidden">
+        <div class="absolute top-10 right-10 w-72 h-72 bg-blue-200 rounded-full opacity-10 blur-3xl"></div>
+        <div class="absolute bottom-10 left-10 w-72 h-72 bg-yellow-200 rounded-full opacity-10 blur-3xl"></div>
+        <div class="section-wrapper relative z-10">
+            <h2 class="text-4xl sm:text-5xl font-bold text-center mb-6 text-gray-900">Nos Clients Parlent</h2>
+            <p class="text-center text-gray-600 mb-16 max-w-2xl mx-auto text-lg">Découvrez pourquoi 850+ étudiants & professionnels nous font confiance avec un taux de satisfaction de 91%</p>
+            
+            <div class="grid md:grid-cols-3 gap-8 mb-16">
+                <div class="card-hover bg-white p-8 rounded-2xl shadow-lg border-l-4 border-yellow-400 hover:border-yellow-500">
+                    <div class="flex gap-1 mb-4">
+                        <span class="text-yellow-400 text-xl">★</span>
+                        <span class="text-yellow-400 text-xl">★</span>
+                        <span class="text-yellow-400 text-xl">★</span>
+                        <span class="text-yellow-400 text-xl">★</span>
+                        <span class="text-yellow-400 text-xl">★</span>
+                    </div>
+                    <p class="text-gray-700 italic mb-6 leading-relaxed text-lg">"Mandarin Flow nous a aidés à former nos équipes supply chain. En 3 mois, nos acheteurs négociaient directement. ROI palpable."</p>
+                    <p class="font-bold text-gray-900 text-lg">Laurent M.</p>
+                    <p class="text-sm text-gray-500">Directeur Achats, Industrie Textile</p>
+                </div>
+                
+                <div class="card-hover bg-white p-8 rounded-2xl shadow-lg border-l-4 border-yellow-400 hover:border-yellow-500">
+                    <div class="flex gap-1 mb-4">
+                        <span class="text-yellow-400 text-xl">★</span>
+                        <span class="text-yellow-400 text-xl">★</span>
+                        <span class="text-yellow-400 text-xl">★</span>
+                        <span class="text-yellow-400 text-xl">★</span>
+                        <span class="text-yellow-400 text-xl">★</span>
+                    </div>
+                    <p class="text-gray-700 italic mb-6 leading-relaxed text-lg">"Les coaches sont natifs & expérimentés. J'ai préparé mon HSK 3 en 2 mois. L'apprentissage est très structuré."</p>
+                    <p class="font-bold text-gray-900 text-lg">Sophie R.</p>
+                    <p class="text-sm text-gray-500">Responsable Export, PME</p>
+                </div>
+                
+                <div class="card-hover bg-white p-8 rounded-2xl shadow-lg border-l-4 border-yellow-400 hover:border-yellow-500">
+                    <div class="flex gap-1 mb-4">
+                        <span class="text-yellow-400 text-xl">★</span>
+                        <span class="text-yellow-400 text-xl">★</span>
+                        <span class="text-yellow-400 text-xl">★</span>
+                        <span class="text-yellow-400 text-xl">★</span>
+                        <span class="text-yellow-400 text-xl">★</span>
+                    </div>
+                    <p class="text-gray-700 italic mb-6 leading-relaxed text-lg">"L'interculturel est le plus. Comprendre les codes a changé notre approche commerciale."</p>
+                    <p class="font-bold text-gray-900 text-lg">Thomas B.</p>
+                    <p class="text-sm text-gray-500">Étudiant Ecole de Commerce</p>
+                </div>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8 text-center bg-gradient-to-r from-blue-900 to-blue-800 text-white p-12 rounded-3xl shadow-2xl">
+                <div class="animate-scale-up" style="animation-delay: 0s;">
+                    <div class="text-6xl font-bold mb-3 text-yellow-400">850+</div>
+                    <p class="text-blue-100 text-lg">Étudiants formés</p>
+                </div>
+                <div class="animate-scale-up" style="animation-delay: 0.2s;">
+                    <div class="text-6xl font-bold mb-3 text-yellow-400">91%</div>
+                    <p class="text-blue-100 text-lg">Satisfaction</p>
+                </div>
+                <div class="animate-scale-up" style="animation-delay: 0.4s;">
+                    <div class="text-6xl font-bold mb-3 text-yellow-400">45+</div>
+                    <p class="text-blue-100 text-lg">Entreprises</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PDF Section ===== -->
+    <section class="py-24 sm:py-32 bg-gray-50">
+        <div class="section-wrapper">
+            <h2 class="text-4xl sm:text-5xl font-bold text-center mb-12 text-gray-900">📄 Ressources & Guides</h2>
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="card-hover bg-white p-8 rounded-2xl border-2 border-red-400 shadow-lg hover:border-red-600">
+                    <div class="text-6xl mb-4">📚</div>
+                    <h4 class="text-2xl font-bold text-gray-900 mb-4">Guide Mandarin Business</h4>
+                    <p class="text-gray-600 mb-6">Maîtrise du mandarin à la vitesse de l'élément Feu. Techniques avancées et stratégies éprouvées.</p>
+                    <a href="assets/documents/La maîtrise du Chinois, à la vitessé de l'Élément Feu_page-0001.jpg" target="_blank" class="inline-block bg-red-500 text-white px-6 py-3 rounded-lg font-bold hover:bg-red-600 transition">
+                        ⬇️ Télécharger PDF
+                    </a>
+                </div>
+                <div class="card-hover bg-white p-8 rounded-2xl border-2 border-blue-400 shadow-lg hover:border-blue-600">
+                    <div class="text-6xl mb-4">🌍</div>
+                    <h4 class="text-2xl font-bold text-gray-900 mb-4">Immersion Chine</h4>
+                    <p class="text-gray-600 mb-6">Découvrez les villes chinoises, la culture millénaire et les opportunités business en Chine.</p>
+                    <button onclick="alert('Contenu détaillé disponible sur demande')" class="inline-block bg-blue-500 text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-600 transition">
+                        En savoir plus →
+                    </button>
+                </div>
+                <div class="card-hover bg-white p-8 rounded-2xl border-2 border-green-400 shadow-lg hover:border-green-600">
+                    <div class="text-6xl mb-4">🎯</div>
+                    <h4 class="text-2xl font-bold text-gray-900 mb-4">Stratégies Business</h4>
+                    <p class="text-gray-600 mb-6">Négociation, contrats, culture d'affaires. Maîtrisez les codes sino-français pour réussir.</p>
+                    <button onclick="openModal()" class="inline-block bg-green-500 text-white px-6 py-3 rounded-lg font-bold hover:bg-green-600 transition">
+                        Diagnostic personnalisé →
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA Section ===== -->
+    <section class="py-32 sm:py-40 gradient-blue-dark text-white relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-96 h-96 bg-yellow-400 rounded-full opacity-10 blur-3xl animate-float"></div>
+        <div class="section-wrapper text-center relative z-10">
+            <h2 class="text-5xl sm:text-6xl font-bold mb-8">Réduisez les intermédiaires.</h2>
+            <p class="text-xl text-yellow-100 mb-12 max-w-2xl mx-auto leading-relaxed">Négociez directement avec vos fournisseurs chinois. Commencez votre diagnostic gratuit aujourd'hui et transformez votre approche commerciale.</p>
+            <button onclick="openModal()" class="bg-gradient-to-r from-yellow-400 to-yellow-500 text-blue-900 px-12 py-5 rounded-full font-bold btn-glow text-xl hover:scale-110 transform transition shadow-2xl">
+                Demander un diagnostic
+            </button>
+        </div>
+    </section>
+
+    <!-- ===== Contact Section ===== -->
+    <section id="contact" class="py-24 sm:py-32 bg-white">
+        <div class="section-wrapper">
+            <h2 class="text-4xl sm:text-5xl font-bold text-center mb-16 text-gray-900">Nous Contacter</h2>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gradient-to-br from-yellow-50 to-blue-50 p-8 rounded-2xl border-2 border-yellow-200 card-hover">
+                    <div class="text-5xl mb-4">📍</div>
+                    <h3 class="text-2xl font-bold mb-3 text-gray-900">Adresse</h3>
+                    <p class="text-gray-600">12 Rue des Tisserands<br>68100 Mulhouse, France</p>
+                </div>
+                
+                <div class="bg-gradient-to-br from-yellow-50 to-blue-50 p-8 rounded-2xl border-2 border-yellow-200 card-hover">
+                    <div class="text-5xl mb-4">☎️</div>
+                    <h3 class="text-2xl font-bold mb-3 text-gray-900">Téléphone</h3>
+                    <a href="tel:+33389457218" class="text-blue-900 font-bold hover:text-yellow-500">+33 3 89 45 72 18</a>
+                    <p class="text-gray-600 text-sm mt-2">Lun-Sam : 8h-20h</p>
+                </div>
+                
+                <div class="bg-gradient-to-br from-yellow-50 to-blue-50 p-8 rounded-2xl border-2 border-yellow-200 card-hover">
+                    <div class="text-5xl mb-4">✉️</div>
+                    <h3 class="text-2xl font-bold mb-3 text-gray-900">Email</h3>
+                    <a href="mailto:contact@mandarinflow.fr" class="text-blue-900 font-bold hover:text-yellow-500">contact@mandarinflow.fr</a>
+                    <p class="text-gray-600 text-sm mt-2">Réponse en 24h</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Footer ===== -->
+    <footer class="gradient-blue-dark text-white py-20 border-t-4 border-yellow-400">
+        <div class="section-wrapper">
+            <div class="grid md:grid-cols-4 gap-8 mb-12">
+                <div class="text-center">
+                    <h4 class="font-bold text-yellow-400 mb-4">Mandarin Flow</h4>
+                    <p class="text-gray-300 text-sm">Centre de langue chinois & business culture à Mulhouse.</p>
+                </div>
+                <div class="text-center">
+                    <h4 class="font-bold text-yellow-400 mb-4">Liens Rapides</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#formations" class="hover:text-yellow-300">Formations</a></li>
+                        <li><a href="#contact" class="hover:text-yellow-300">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="text-center">
+                    <h4 class="font-bold text-yellow-400 mb-4">Support</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-yellow-300">Mentions Légales</a></li>
+                        <li><a href="#" class="hover:text-yellow-300">Politique Confidentialité</a></li>
+                    </ul>
+                </div>
+                <div class="text-center">
+                    <h4 class="font-bold text-yellow-400 mb-4">Suivez-nous</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-yellow-300">LinkedIn</a></li>
+                        <li><a href="#" class="hover:text-yellow-300">WeChat</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-600 pt-8 text-center text-sm text-gray-400">
+                <p>&copy; 2025 Mandarin Flow. Tous droits réservés. | Formation en mandarin business à Mulhouse, Alsace.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== Modal Form ===== -->
+    <div id="diagModal" class="hidden fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+        <div class="bg-white rounded-3xl p-10 max-w-md w-full shadow-2xl animate-scale-up">
+            <div class="flex justify-between items-center mb-8">
+                <h2 class="text-3xl font-bold text-gray-900">Diagnostic gratuit</h2>
+                <button onclick="closeModal()" class="text-4xl text-gray-400 hover:text-gray-600 transition">×</button>
+            </div>
+            
+            <div id="successMsg" class="hidden mb-6 p-4 bg-green-500 text-white rounded-2xl text-center font-bold animate-scale-up">
+                ✓ Merci ! Notre équipe vous contacte sous 48 h.
+            </div>
+            
+            <form id="diagForm" class="space-y-5">
+                <div>
+                    <label class="block text-sm font-bold text-gray-900 mb-3">Nom *</label>
+                    <input type="text" id="name" required class="w-full px-5 py-3 border-2 border-gray-300 rounded-xl focus:border-yellow-400 focus:outline-none transition">
+                </div>
+                
+                <div>
+                    <label class="block text-sm font-bold text-gray-900 mb-3">Entreprise / École</label>
+                    <input type="text" id="company" class="w-full px-5 py-3 border-2 border-gray-300 rounded-xl focus:border-yellow-400 focus:outline-none transition">
+                </div>
+                
+                <div>
+                    <label class="block text-sm font-bold text-gray-900 mb-3">Email *</label>
+                    <input type="email" id="email" required class="w-full px-5 py-3 border-2 border-gray-300 rounded-xl focus:border-yellow-400 focus:outline-none transition">
+                </div>
+                
+                <div>
+                    <label class="block text-sm font-bold text-gray-900 mb-3">Besoin principal *</label>
+                    <select id="need" required class="w-full px-5 py-3 border-2 border-gray-300 rounded-xl focus:border-yellow-400 focus:outline-none transition">
+                        <option value="">-- Sélectionnez --</option>
+                        <option value="formation-etudiant">Formation étudiant</option>
+                        <option value="formation-executive">Formation executive</option>
+                        <option value="intra-entreprise">Intra-entreprise</option>
+                        <option value="hsk">Préparation HSK</option>
+                    </select>
+                </div>
+                
+                <button type="submit" class="w-full bg-gradient-to-r from-yellow-400 to-yellow-500 text-blue-900 py-3 rounded-xl font-bold btn-glow hover:shadow-xl transition mt-6">
+                    Envoyer mon diagnostic
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
